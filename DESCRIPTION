@@ -1,8 +1,8 @@
 Package: cgwtools
 Type: Package
 Title: My collection of useful tools
-Version: 1.0
-Date: 2013-07-23
+Version: 1.1
+Date: 2013-10-25
 Author: Carl Witthoft
 Maintainer: Carl Witthoft <carl@witthoft.com>
 Description: mostly Q&D tools.
@@ -13,7 +13,7 @@ Description: mostly Q&D tools.
  mystat , get basic statistics of a vector or array
  splatnd , a tutorial bit of code on how to create your own zero-argument operators
 License: LGPL-3
-Packaged: 2013-08-11 15:50:33 UTC; cgw
+Packaged: 2013-10-26 09:38:28 UTC; cgw
 NeedsCompilation: no
 Repository: CRAN
-Date/Publication: 2013-08-11 19:00:55
+Date/Publication: 2013-10-26 15:33:54

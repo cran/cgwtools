@@ -19,7 +19,7 @@ License: \tab GPL-3 \cr
 \author{
 Carl Witthoft, with attributions as noted in the individual help pages
 
-Maintainer: Carl Witthoft,  carl@witthoft.com
+Maintainer:Carl Witthoft carl@witthoft.com
 
 }
 

@@ -1,0 +1,2 @@
+*lssize.R(cgwtools): rev. 1.1 - Fixed a serious bug which caused the sizes for list objects to be calculated incorrectly.
+*seqle.R: Changed so the results are returned (not invisible).
