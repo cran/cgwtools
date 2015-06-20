@@ -34,7 +34,7 @@ Various people have published similar code on Stack Overflow.
 }
 \author{
 %%  ~~who you are~~
-Carl Witthoft,  carl@witthoft.com
+Carl Witthoft  carl@witthoft.com
 }
 
 \seealso{

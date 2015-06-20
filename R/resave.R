@@ -1,5 +1,4 @@
-resave <-
-function(..., list = character(), file) {
+resave <- function(..., list = character(), file) {
 #  add objects to existing Rdata file. Original code written by "flodel"
 # on StackOverflow (http://www.linkedin.com/in/florentdelmotte)  . 
    previous  <- load(file)

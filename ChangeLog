@@ -1,2 +1,2 @@
-*lssize.R(cgwtools): rev. 1.1 - Fixed a serious bug which caused the sizes for list objects to be calculated incorrectly.
-*seqle.R: Changed so the results are returned (not invisible).
+*pushdpopd.R: Rev3.0 modified so directory stack is saved in separate environment, so doesn’t violate CRAN “no <<-“ rule. 
+*added  lsdim.R , which returns dim(objects) or length(objects) for vectors, no “guessing” required.
