@@ -21,7 +21,8 @@
   # Interesting: when using "!" for its real purpose, e.g. " !(bar2 %in% bar1) ", converting to
   # character will create multiple elements, so the "collapse" is critical here
 	switch(paste(as.character(call[[2]]),sep='',collapse='') ,
-	'newdev' = dev.new(width=4.5, height= 4.5, restoreConsole=T),
+# dev.new() requires grDevices. The 'newdev' call has been tested successfully
+#	'newdev' = dev.new(width=4.5, height= 4.5, restoreConsole=T),
 	'qapla' = cat('batlh tIn chav\n'),
 	return(original()) )
 	

@@ -27,7 +27,7 @@ pushd(path, dn=FALSE,rot=0)
 }
 }
 \details{
-Recommend reading \code{man bash} for full details of the operations. This implementation should do nothing more than change the working directory (and store directory history in a file \code{.dirhist} ). 
+Recommend reading \code{man bash} for full details of the operations. This implementation should do nothing more than change the working directory (and store directory history in a file in the function's environment (not console environment) \code{.dirhist} ). 
 }
 \value{
 A status value, which is always \code{0} for success.  A future upgrade may implement a \code{trycatch} for conditions such as an inaccessible directory, but for now error messages will have to suffice.

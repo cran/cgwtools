@@ -1,2 +1,3 @@
+* Rev3.0.1 functions unchanged; DESCRIPTION and NAMESPACE files updated to current CRAN standards
 *pushdpopd.R: Rev3.0 modified so directory stack is saved in separate environment, so doesn’t violate CRAN “no <<-“ rule. 
 *added  lsdim.R , which returns dim(objects) or length(objects) for vectors, no “guessing” required.

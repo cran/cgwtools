@@ -24,7 +24,7 @@ popd(dn=FALSE, pull=0)
 }
 
 \details{
-Recommend reading \code{man bash} for full details of the operations. This implementation will not change the working directory if \code{dn} is \code{TRUE} The directory history is stored in a file \code{.dirhist}, typically first created with \code{\link{pushd}} . 
+Recommend reading \code{man bash} for full details of the operations. This implementation will not change the working directory if \code{dn} is \code{TRUE} The directory history is stored  in a file in the function's environment (not console environment)\code{.dirhist}, typically first created with \code{\link{pushd}} . 
 }
 \value{
 A status value: \code{0} for success or \code{1} if there is no stack file (\code{.dirhist}).  Future upgrades may include other codes for other failure mechanisms, but for now error messages will have to suffice.

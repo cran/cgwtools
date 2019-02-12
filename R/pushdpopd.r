@@ -1,12 +1,10 @@
-# Copy the functionality of  unix  bash commands 'pushd' and 'popd'
+# Copy the functionality of  unix  bash commands 'pushd' and 'popd', and in addition
+# a "getstack()" to find out what's on the stack
 # may 2015 -- this uses a localized environment to store the stack,
 # thus meeting CRAN requirements. [i.e. not to alter GlobalEnv]
 # Using approach suggested by MrFlick on SO  http://stackoverflow.com/questions/30416292
 
-# TODO
-#	1) add a little  "getstack()" function to let user know what's in the stack
-#
-#
+
 
 .pushpop <- (function() {
  #  I need to initialize the existence  of my stack, but keep it empty.

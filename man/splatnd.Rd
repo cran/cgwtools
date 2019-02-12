@@ -1,5 +1,6 @@
 \name{splatnd}
 \alias{splatnd}
+\alias{!}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
 Execute simple zero-argument functions
@@ -41,7 +42,7 @@ The R manuals on creating operators,  \code{findFn} in the package \code{sos} , 
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-# based on the default items in splatnd
+# based on the default items in splatnd.R
 qapla <- 1:5
 !qapla
 !(qapla)
