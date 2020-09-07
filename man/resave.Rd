@@ -47,10 +47,11 @@ Code is essentially the same as that provided by  "flodel",  http://www.linkedin
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-foo<-1:4
-bar<-5:8
-save(foo,file='foo.Rdata')
-resave(bar,file='foo.Rdata')
-#check your work
-lsdata('foo.Rdata')
+## not run to avoid creating detritus
+# foo<-1:4
+# bar<-5:8
+# save(foo,file='foo.Rdata')
+# resave(bar,file='foo.Rdata')
+# #check your work
+# lsdata('foo.Rdata')
 }

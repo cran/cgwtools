@@ -42,8 +42,9 @@ Carl Witthoft  carl@witthoft.com
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-xblue<-1
-yblue<-2
-save(xblue,yblue,file='blue.Rdata')
-lsdata('blue.Rdata')
+##not run because of complaints about detritus
+# xblue<-1
+# yblue<-2
+# save(xblue,yblue,file='blue.Rdata')
+# lsdata('blue.Rdata')
 }
