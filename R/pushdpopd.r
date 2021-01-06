@@ -3,7 +3,9 @@
 # may 2015 -- this uses a localized environment to store the stack,
 # thus meeting CRAN requirements. [i.e. not to alter GlobalEnv]
 # Using approach suggested by MrFlick on SO  http://stackoverflow.com/questions/30416292
-
+# 
+# Dec 2020: Let's consider sticking options(prompt=paste(basename(getwd()),'> ',sep=""))
+#  to every directory change, but that might piss people off who like their existing prompt.
 
 
 .pushpop <- (function() {

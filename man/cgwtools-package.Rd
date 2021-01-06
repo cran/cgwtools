@@ -4,14 +4,14 @@
 \docType{package}
 \title{ A collection of tools that the author finds handy}
 \description{
-Most of these tools are small functions to do simple tasks or filtered views of the current environment.  In addition the function \code{splatnd} is provided primarily as a piece of example code to show how to write zero-argument operators. It's based on the code in the package  \code{sos} , and avoids the need to use \code{makeActiveBinding} (as in ,e.g., \code{pracma::ans}  ) 
+Most of these tools are small functions to do simple tasks or provide filtered views of the current environment.  In addition the function \code{splatnd} is provided primarily as a piece of example code to show how to write zero-argument operators. It's based on the code in the package  \code{sos} , and avoids the need to use \code{makeActiveBinding} (as in ,e.g., \code{pracma::ans}  ) 
 }
 \details{
 \tabular{ll}{
 Package: \tab cgwtools\cr
 Type: \tab Package\cr
-Version: \tab 2.0\cr
-Date: \tab 2014-11-25\cr
+Version: \tab 3.3\cr
+Date: \tab 2021-01-02\cr
 License: \tab GPL-3 \cr
 }
 

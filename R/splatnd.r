@@ -3,6 +3,8 @@
 # Basically this is a cheap sample function to show how to create a specialized unary operator that doesn't require
 # parentheses for its argument.  So far as I can tell,  the only way to do this is to overload an existing function or
 # operator which doesn't require parentheses.  "?" and "!" meet this requirement.
+#
+# Dec 2020: adding 'quitn' and 'quity' to the options here
 `!` <- function (e1, e2)  { 
 	call <- match.call()
 #  match.call breaks out each callable function in argument list (which was "??foo" for the sos package "???",
@@ -21,9 +23,10 @@
   # Interesting: when using "!" for its real purpose, e.g. " !(bar2 %in% bar1) ", converting to
   # character will create multiple elements, so the "collapse" is critical here
 	switch(paste(as.character(call[[2]]),sep='',collapse='') ,
-# dev.new() requires grDevices. The 'newdev' call has been tested successfully
-#	'newdev' = dev.new(width=4.5, height= 4.5, restoreConsole=T),
+	'newdev' = dev.new(width=4.5, height= 4.5, restoreConsole=T),
 	'qapla' = cat('batlh tIn chav\n'),
+	'quitn' = quit('no'),
+	'quity' = quit('yes'),
 	return(original()) )
 	
 }

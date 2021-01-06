@@ -28,7 +28,7 @@ lssize(items, byte = FALSE)
 
 }
 \references{
-Many thanks to Martin Morgan of bioconductor.org who provided the recursive function for deconstructing an S4 Object. See http://stackoverflow.com/questions/14803237/is-there-an-s4-equivalent-to-unlist for the original question and answer. 
+Many thanks to Martin Morgan of bioconductor.org who provided the recursive function for deconstructing an S4 Object. See \url{http://stackoverflow.com/questions/14803237/} for the original question and answer. 
 
 %% ~put references to the literature/web site here ~
 }

@@ -39,7 +39,7 @@ Carl Witthoft,  \email{carl@witthoft.com}
 }
 \note{
 %%  ~~further notes~~
-The bulk of the code is taken directly from \code{base::inverse.rle} . Thanks to "flodel",  http://www.linkedin.com/in/florentdelmotte ,  on StackOverflow for suggesting code to handle floating-point increments.  
+The bulk of the code is taken directly from \code{base::inverse.rle} . Thanks to "flodel"  on StackOverflow for suggesting code to handle floating-point increments.  
 }
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~

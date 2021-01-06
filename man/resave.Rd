@@ -36,7 +36,7 @@ Carl Witthoft  \email{carl@witthoft.com}
 %%  ~~who you are~~
 }
 \note{
-Code is essentially the same as that provided by  "flodel",  http://www.linkedin.com/in/florentdelmotte ,  on StackOverflow.  
+Code is essentially the same as that provided by  "flodel" on StackOverflow.  
 %%  ~~further notes~~
 }
 

@@ -18,6 +18,11 @@ The name \code{splatnd} cannot be called directly, and doesn't even exist after 
 %%     ~~Describe \code{x} here~~
 }
 \details{
+The strings supported, with their associated functions,  as delivered are:
+	'newdev' = dev.new(width=4.5, height= 4.5, restoreConsole=T),
+	'qapla' = cat('batlh tIn chav'),
+	'quitn' = quit('no'),
+	'quity' = quit('yes'),
 There's an obvious risk of undesired results should there exist an object in the environment with the same name as one of the items in the \code{switch} options.  The workaround is to enclose the object name in parentheses.  See the example. 
 %%  ~~ If necessary, more details than the description above ~~
 }
