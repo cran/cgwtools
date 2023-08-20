@@ -27,7 +27,7 @@ seqle(x, incr = 1L, prec = .Machine$double.eps^0.5)
 }
 }
 \details{Note: the returned value is assigned the class \code{"rle"}. So far as I can tell, this class has only a \code{print} method, i.e. defining what is returned to the console when the user types the name of the returned object.  
-%%  ~~ If necessary, more details than the description above ~~
+Since the concept of "increment" has no reliable meaning when dealing with characters or char strings,  when \code{x} is non-numeric the argument \code{incr} is ignored and the function reverts to \code{base::rle}.  
 }
 \value{
 \item{lengths}{a vector of the lengths (1 or greater) of all sequences found.}

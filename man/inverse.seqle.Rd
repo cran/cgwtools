@@ -20,17 +20,13 @@ inverse.seqle(x, incr = 1L)
 }
   \item{incr}{
   The  increment between elements used to generate the compressed data object.  Note that this can be either integer or float.  For floating-point sequences, the reconstruction of the original series may differ at the level of floating-point precision used to generate the input object.
-%%     ~~Describe \code{incr} here~~
+
 }
   
 }
 
 \value{ a vector of values identical (or nearly so, for floats) to the original sequence.
-%%  ~Describe the value returned
-%%  If it is a LIST, use
-%%  \item{comp1 }{Description of 'comp1'}
-%%  \item{comp2 }{Description of 'comp2'}
-%% ...
+Note: Since the concept of "increment" has no reliable meaning when dealing with characters or char strings,  when \code{x} is non-numeric the argument \code{incr} is ignored and the function reverts to \code{base::inverse.rle}....
 }
 
 \author{

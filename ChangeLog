@@ -1,3 +1,6 @@
+* Rev 4.0  Removed base2base; now resides in the package "bigBits" . Added a tool to find rational roots of a polynomial. Added (maybe) a "banvax" banner creator. 
+* Rev 3.5 Made output of base2base a single string for each answer. 
+* Rev 3.4 Upgraded resave. 
 * Rev 3.3 Added cumfun which calculates cumulative outputs for any function. Added the n-th max/min functions maxn, minn, which.maxn, which.minn. Added more operations to splatnd. Added base2base, a tool to change from any base to any other base. 
 * Rev 3.2 Added max.row, min.row, min.col to complement base max.col. Added dirdir, variant of dir which returns only directories. Removed lsdim in favor of new "overload" dim function,which should have been put into baseR long ago. dim  is happy to return length() when the input is a vector or other object without a dimension attribute, and dim() otherwise. Added findpat() which looks (a bit slowly) for patterns inside data items. Added polyInt(), a Q&D tool to test whether two polygons (in a plane) intersect. Added binit(), world's cheapest data-binning tool.
 * Rev3.0.1 functions unchanged; DESCRIPTION and NAMESPACE files updated to current CRAN standards

@@ -6,7 +6,7 @@ Function to find intersection point between two line segments (NOT lines).
 }
 \description{
 This function finds the intersection of the two lines containing the provided line segments, then checks whether the intersection is contained within both segments.  
-This is an implementation of the equations presented, among many other sources, at   \url{http://paulbourke.net/geometry/pointlineplane/} .  Bourke comments there, that  "The equations apply to lines, if the intersection of line segments is required then it is only necessary to test if ua and ub lie between 0 and 1. Whichever one lies within that range then the corresponding line segment contains the intersection point. If both lie within the range of 0 to 1 then the intersection point is within both line segments."
+This is an implementation of the equations presented, among many other sources, at   \url{https://paulbourke.net/geometry/pointlineplane/} .  Bourke comments there, that  "The equations apply to lines, if the intersection of line segments is required then it is only necessary to test if ua and ub lie between 0 and 1. Whichever one lies within that range then the corresponding line segment contains the intersection point. If both lie within the range of 0 to 1 then the intersection point is within both line segments."
 
 }
 \usage{
@@ -34,7 +34,7 @@ segSegInt(seg1, seg2=NULL, plotit=FALSE, probParallel = 1e-10,  ...)
 
 }
 \details{
-The function runs a check for parallelism so as not to return an infinity of intersection points, then basically checks for intersection of the lines to which the line segments belong, and finally verifies said intersection belongs to both line segments. This is an implementation of the equations presented at, among many other sources, \url{http://paulbourke.net/geometry/pointlineplane/} .  Bourke comments there, that  "The equations apply to lines, if the intersection of line segments is required then it is only necessary to test if ua and ub lie between 0 and 1. Whichever one lies within that range then the corresponding line segment contains the intersection point. If both lie within the range of 0 to 1 then the intersection point is within both line segments."
+The function runs a check for parallelism so as not to return an infinity of intersection points, then basically checks for intersection of the lines to which the line segments belong, and finally verifies said intersection belongs to both line segments. This is an implementation of the equations presented at, among many other sources, \url{https://paulbourke.net/geometry/pointlineplane/} .  Bourke comments there, that  "The equations apply to lines, if the intersection of line segments is required then it is only necessary to test if ua and ub lie between 0 and 1. Whichever one lies within that range then the corresponding line segment contains the intersection point. If both lie within the range of 0 to 1 then the intersection point is within both line segments."
 }
 
 \value{

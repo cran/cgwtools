@@ -10,21 +10,25 @@ Take an existing \code{myfile.Rdata} data file and add the specified objects to 
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
-resave(..., list = character(), file)
+resave(..., list = character(), file, overwrite = TRUE, loadverbose = FALSE )
 }
-%- maybe also 'usage' for other objects documented here.
+
 \arguments{
   \item{\dots}{
-  Names of objects to save.
-%%     ~~Describe \code{\dots} here~~
+  Names of objects to save. Same usage as in \code{base::save}
+
 }
   \item{list}{
-  A list of names of the objects to save.  Can be used with or without any named arguments in \code{...}
-%%     ~~Describe \code{list} here~~
+  A list of names of the objects to save.  Can be used with or without any named arguments in \code{...} . Same usage as in \code{base::save}
 }
   \item{file}{
   The name of the file to open and add items to.
-%%     ~~Describe \code{file} here~~
+}
+  \item{overwrite}{
+  If TRUE (the default), items currently in the selected file will be overwritten with items of the same name in the console environment.  If FALSE, they will not be overwritten; a warning message will be issued. 
+}
+  \item{loadverbose}{
+  Default is FALSE. If TRUE, then the names of all objects currently in the file are echoed to the console
 }
 }
 
@@ -36,7 +40,7 @@ Carl Witthoft  \email{carl@witthoft.com}
 %%  ~~who you are~~
 }
 \note{
-Code is essentially the same as that provided by  "flodel" on StackOverflow.  
+Code is essentially the same as that provided by  "flodel" on StackOverflow, with some enhancements based on  "save_append" by "nehartj" on GitHub  
 %%  ~~further notes~~
 }
 

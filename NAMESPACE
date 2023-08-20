@@ -1,6 +1,7 @@
 exportPattern("^[[:alpha:]]+")
 # matching what sos does with "?" to export:
 export("!")
+# do NOT do this with data! export("ascarr")
 importFrom("methods", "slot", "slotNames")
 importFrom("stats", "median", "sd", "setNames", "var")
 importFrom("utils", "head", "object.size")
