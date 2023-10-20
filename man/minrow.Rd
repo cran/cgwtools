@@ -29,7 +29,7 @@ Specify how to deal with ties, using same internal rules as \code{max.col}
  
 \value{
 For each of these functions, same as for \code{\link{max.col} }:
-index of a {maximal, minimal} value for each {row, column}, an integer vector of length {nrow(mat), ncol(mat)}
+index of a max or min value for each row or column, an integer vector of length nrow(mat) or  ncol(mat).
 
 }
 

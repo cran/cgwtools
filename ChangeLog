@@ -1,3 +1,4 @@
+* Rev 4.1  Removed references to obsolete package "rgeos"
 * Rev 4.0  Removed base2base; now resides in the package "bigBits" . Added a tool to find rational roots of a polynomial. Added (maybe) a "banvax" banner creator. 
 * Rev 3.5 Made output of base2base a single string for each answer. 
 * Rev 3.4 Upgraded resave. 

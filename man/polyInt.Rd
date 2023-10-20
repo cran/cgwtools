@@ -50,7 +50,7 @@ Carl Witthoft,  \email{carl@witthoft.com}
 }
 
 \seealso{  
-There are many tools which are far faster and more flexible. I wrote this one because it uses only base functions and doesn't require converting polygon vertices into a special class variable. Here are three common packages.  \code{\link{intersect}} , \code{\link[sf]{st_intersection}}, \code{\link[rgeos]{gIntersection}}
+There are many tools which are far faster and more flexible. I wrote this one because it uses only base functions and doesn't require converting polygon vertices into a special class variable. Here are two common packages.  \code{\link{intersect}} , \code{\link[sf]{st_intersection}}
 }
 
 \examples{

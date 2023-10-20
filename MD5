@@ -1,5 +1,5 @@
-a994ee0825dde109db952e27aea2e9d3 *ChangeLog
-65504c9eb5d0c5ca62d7cb7d23febf92 *DESCRIPTION
+fdfb434882ea221998f3174a170f281d *ChangeLog
+b3ac82fe8e26f6836afa3df5b9cc7e0c *DESCRIPTION
 981f8c87ef17ac535b9696d2ee46d21d *NAMESPACE
 e752956d6b819a788952d81ffaaa881a *R/approxeq.R
 267fd485714c590137cfab8f388cad46 *R/askrm.R
@@ -45,9 +45,9 @@ ac75bcbe5ee5e0dc2f2f9c7d44d1b4d0 *man/cumfun.Rd
 7224c9a9430652c91a431563a1112b39 *man/lssize.Rd
 7aee1fe05178e6093d4f1d7a9371e2f6 *man/lstype.Rd
 bdd5b30635fa502999687b11e173e0ca *man/maxn.Rd
-7e0518f4fe92272b94cf12adcdd104de *man/minrow.Rd
+ed2951f49fd8377779c7c5c94c6069d2 *man/minrow.Rd
 6584605bc560996d2347d255739a855b *man/mystat.Rd
-4fb4d6b3756eb389b1568dd22c3eabd9 *man/polyInt.Rd
+50298a7b7a46b5eb3cfbc6ce6cbff550 *man/polyInt.Rd
 159a406687c1436679a45c0f5beb11a1 *man/popd.Rd
 2bd08de1702db10c3005416433c83afa *man/pushd.Rd
 a1e62d3c688aa28a2b1b6f34a6dea09b *man/ratRoot.Rd
